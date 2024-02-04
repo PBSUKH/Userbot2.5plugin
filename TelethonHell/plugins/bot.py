@@ -34,7 +34,7 @@ async def pong(event):
                 pic_list.append(c)
         PIC = choice(pic_list)
     else:
-        PIC = "https://telegra.ph/file/14166208a7bf871cb0aca.jpg"
+        PIC = "https://telegra.ph/file/5525ecb6bf3223bf229fd.jpg"
     hell = await eor(event, "`·.·★ 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟ ★·.·´")
     ForGo10God, HELL_USER, hell_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
@@ -70,7 +70,7 @@ async def is_limited(event):
 
 @hell_cmd(pattern="kickme$")
 async def leave(event):
-    hell = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🦋](https://t.me/THE_DRAMA_CLUB_01) [❤️](https://t.me/PANJABI_MEHKMA) 🥱")
+    hell = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟](https://t.me/THE_DRAMA_CLUB_01)  🥱")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
