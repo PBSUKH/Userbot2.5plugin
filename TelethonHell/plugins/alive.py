@@ -110,7 +110,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the default Alive message."
 ).add_command(
-    "pbx", None, "Shows inline Alive message."
+    "bad", None, "Shows inline Alive message."
 ).add_warning(
     "✅ Harmless Module"
 ).add()
