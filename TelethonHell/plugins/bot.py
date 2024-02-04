@@ -70,7 +70,7 @@ async def is_limited(event):
 
 @hell_cmd(pattern="kickme$")
 async def leave(event):
-    hell = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟](https://t.me/THE_DRAMA_CLUB_01)  🥱")
+    hell = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟](https://t.me/II_CHAT_HUB_II)  🥱")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
