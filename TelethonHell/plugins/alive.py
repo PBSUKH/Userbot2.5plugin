@@ -11,28 +11,25 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>🎈 ᴘʙ x ʙᴏᴛ ɪs ᴀʟɪᴠᴇ 🎈</i></b>
+<b><i>🎈 ⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸 🎈</i></b>
 
 <b><i>↼ σωиєя⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» тєℓєтнσи:</b> <i>{telethon_version}</i>
-┣─ <b>» ρвχвσт:</b> <i>{hellbot_version}</i>
+┣─ <b>» ⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸:</b> <i>{hellbot_version}</i>
 ┣─ <b>» ѕυ∂σ:</b> <i>{is_sudo}</i>
 ┣─ <b>» υρтιмє:</b> <i>{uptime}</i>
 ┣─ <b>» ριиg:</b> <i>{ping}</i>
 ╰──────────────
-<b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝐏ʙ𝐗ʙᴏᴛ]</a> «««</i></b>
 
+<b><i>»»» <a href='https://t.me/II_CHAT_HUB_II'>[⏤‌ 🇧𝙰፝֟͢𝙳 🇧𝐢͟ƚєѕ᪵ 💘]</a> «««</i></b>
 
-<b><i>⛧ <a href='https://t.me/II_BAD_MUNDA_II'>✦⎯꯭̽🇨🇦꯭꯭ ʙᴀᴅ ᴍᴜɴᴅᴀ🌸✦</a> ⛧</i></b>
-
-<b><i>⛧ <a href='https://t.me/ll_mxni_ll'>✦𐏓 ⃪⃝💸 ꯭ᴄᴜᴛᴇ ᴅᴇᴠɪʟ🦅⃕⃔✦</a> ⛧</i></b>
 """
 
 msg = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>𝐏ʙ𝐗ʙᴏᴛ ≈</b>  <i>{}</i>
+<b>⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸 ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -71,7 +68,7 @@ async def _(event):
                 pic_list.append(c)
         PIC = random.choice(pic_list)
     else:
-        PIC = "https://telegra.ph/file/db0dd26fce28950c46e20.mp4"
+        PIC = "https://telegra.ph/file/7dddd9fe1642ce056d6aa.jpg"
     end = datetime.datetime.now()
     ping = (end - start).microseconds / 1000
     alive = alive_temp.format(
@@ -92,11 +89,11 @@ async def _(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="pbx$")
+@hell_cmd(pattern="bad$")
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b>»» 𝐏ʙ 𝐗 ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b>»» 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟ ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
