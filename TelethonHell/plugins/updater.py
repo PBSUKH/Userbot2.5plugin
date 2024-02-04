@@ -83,7 +83,7 @@ async def update(event, repo, ups_rem, ac_br):
     await update_requirements()
     await eor(
         event,
-        "✅ Successfully updated Hêllẞø†!\n\nBot is restarting please wait for a minute.",
+        "✅ Successfully updated 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟!\n\nBot is restarting please wait for a minute.",
     )
     args = [sys.executable, "-m", "hellbot"]
     os.execle(sys.executable, *args, os.environ)
@@ -242,9 +242,9 @@ async def upstream(event):
 CmdHelp("updater").add_command(
     "update", None, "Checks if any new update is available."
 ).add_command(
-    "update now", None, "Soft-Update Your Hêllẞø†. Basically if you restart dyno it will go back to previous deploy."
+    "update now", None, "Soft-Update 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟ Basically if you restart dyno it will go back to previous deploy."
 ).add_command(
-    "update build", None, "Hard-Update Your Hêllẞø†. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
+    "update build", None, "Hard-Update Your 🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
 ).add_info(
     "ᴘʙx Updater."
 ).add_warning(
