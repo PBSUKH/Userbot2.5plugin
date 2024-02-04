@@ -18,7 +18,7 @@ ping_txt = """
     ⚘  <i>🇺ᴘᴛɪᴍᴇ :</i> <code>{}</code>
     ⚘  <i>🇯ɪᴊᴀ:</i> {}
     
-    <b><i>✬ <a href='https://t.me/II_BAD_BBY_II'>✬🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟✦</a> ✬</i></b>
+    <b><i>✬ <a href='https://t.me/II_BAD_BBY_II'>  🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟✦</a>  </i></b>
 """
 
 
